@@ -1,4 +1,4 @@
-function bishopAndPawn(bishop: string, pawn: string): boolean {
+function bishopAndPawn(bishop, pawn) {
     const board = {
         "a": 1,
         "b": 2,
