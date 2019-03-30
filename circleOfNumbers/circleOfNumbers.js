@@ -1,4 +1,4 @@
-function circleOfNumbers(n: number, firstNumber: number): number {
+function circleOfNumbers(n, firstNumber) {
     const numArray = [];
     const halfWay = n / 2;
 
