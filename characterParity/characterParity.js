@@ -1,6 +1,8 @@
 function characterParity(symbol) {
-    const result = parseInt(symbol);
-    return isNaN(result) ? 'not a digit' : result % 2 === 0 ? 'even' : 'odd';
+    const result = parseInt(symbol)
+    console.log(result);
+    return isNaN(symbol) ? 'not a dihit' : result % 2 === 0 ? 'odd' : 'even'
+
 }
 
 console.log(characterParity('5'))
