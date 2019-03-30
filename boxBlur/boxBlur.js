@@ -1,4 +1,4 @@
-function boxBlur(image: number[][]): number[][] {
+function boxBlur(image) {
     const res = [];
 
     for (let y = 0; y < image.length - 2; y++) {

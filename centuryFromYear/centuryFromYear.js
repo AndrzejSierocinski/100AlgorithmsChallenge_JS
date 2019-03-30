@@ -1,4 +1,4 @@
-function centuryFromYear(year: number): number {
+function centuryFromYear(year) {
     const century = year / 100;
 
     if (year % 100 === 0) {
