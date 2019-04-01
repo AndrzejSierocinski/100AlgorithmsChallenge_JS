@@ -11,24 +11,24 @@
 // console.log(containsDuplicates([1, 2, 3, 1]));
 // console.log(containsDuplicates([3, 1]));
 
-// function containsDuplicates(arr) {
-//     let map = {}, i, size;
-//
-//     for (i = 0, size = arr.length; i < size; i++) {
-//         if (map[arr[i]]) {
-//             return false;
-//         }
-//         map[arr[i]] = true;
-//     }
-//     return true;
-// }
-//
-// console.log(containsDuplicates([1, 2, 3, 1]));
-// console.log(containsDuplicates([3, 1]));
+function containsDuplicates(arr) {
+    let map = {};
 
-function containsDuplicates(myArray) {
-    return myArray.length === new Set(myArray).size;
+    for (let i = 0 ; i < arr.length; i++) {
+        if (map[arr[i]]) {
+            return false;
+        }
+        map[arr[i]] = true;
+    }
+    return true;
 }
 
 console.log(containsDuplicates([1, 2, 3, 1]));
 console.log(containsDuplicates([3, 1]));
+
+// function containsDuplicates(myArray) {
+//     return myArray.length === new Set(myArray).size;
+// }
+
+// console.log(containsDuplicates([1, 2, 3, 1]));
+// console.log(containsDuplicates([3, 1]));

@@ -1,8 +1,7 @@
 function convertString(s: string, t: string): boolean {
     let word = '';
     let tIndex = 0;
-    const sChars: string[] = s.split('');
-
+    s.split('');
     for (let i = 0; i < s.length; i++) {
         if (s[i] === t[tIndex]) {
             word = word.concat(s[i]);
