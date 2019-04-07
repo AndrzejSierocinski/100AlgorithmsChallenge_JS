@@ -10,3 +10,7 @@ function pagesNumberingWithInk(current: number, numberOfDigits: number): number 
 
     return current;
 }
+
+console.log(pagesNumberingWithInk(1,5));
+console.log(pagesNumberingWithInk(21,5));
+console.log(pagesNumberingWithInk(8,4));
