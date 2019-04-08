@@ -1,4 +1,4 @@
-function shapeArea(n: number): number {
+function shapeArea(n) {
     let area = 1;
 
     for (let i = 1; i < n; i++) {

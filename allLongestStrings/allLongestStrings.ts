@@ -7,6 +7,7 @@ function allLongestStrings(inputArray: string[]): string[] {
     });
 
     inputArray.forEach((word: string) => {
+
         if(word.length === longestLength) {
             longestWords.push(word);
         }
