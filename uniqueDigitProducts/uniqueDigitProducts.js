@@ -13,10 +13,11 @@ function uniqueDigitProducts(a) {
 function getDigitProduct(num) {
     const digits = num.toString().split('');
     let product = 1;
-
+   // console.log(digits);
     digits.forEach((digit) => {
         product *= parseInt(digit);
     });
+    console.log(product);
     return product
 }
 
